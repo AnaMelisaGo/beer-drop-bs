@@ -1,0 +1,69 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.alert-container {}
+
+.callout-container {
+    height: 100vh;
+
+    background: url(../images/beer-the-bottle.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.65);
+}
+
+.quotes-container {}
+
+.features-container {}
+
+/* Text divider */
+.text-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+}
+
+.text-divider--orange {
+    background: #f5af2e;
+}
+
+.text-divider--short {
+    width: 35px;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.jumbotron .lead {
+    margin: 25px 0;
+    color: #cacaca;
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #9c9c9c;
+}
