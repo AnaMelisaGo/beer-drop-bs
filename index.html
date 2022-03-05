@@ -12,57 +12,59 @@
 </head>
 
 <body>
-    <!-- Nav bar -->
-    <nav class="navbar navbar-light bg-light navbar-expand-sm">
-        <a class="navbar-brand" href="#">Beer Drop</a>
-        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav mr-auto">
-                <li class="active nav-item mr-2">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item mr-2">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Beers
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Lager</a>
-                        <a class="dropdown-item" href="#">Stout</a>
-                        <a class="dropdown-item" href="#">Pilsner</a>
-                        <a class="dropdown-item" href="#">Pale Ale</a>
-                        <a class="dropdown-item" href="#">Blond Ale</a>
-                        <a class="dropdown-item" href="#">Indian Pale Ale</a>
+    <div class="container-fluid navalert-container">
+        <!-- Alert -->
+        <div class="container-fluid alert-container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="site-wide-alert alert alert-warning">
+                        <strong>ON SALE 50% discount!</strong> <span class="d-none d-sm-inline">Get a 1 year
+                            subscription
+                            for half the price. <a href="#">Click here for more details!</a>
+                        </span><a href="#" class="d-inline d-sm-none">Click here!</a>
                     </div>
-                <li class="nav-item mr-2 d-block d-sm-none">
-                    <a class="nav-link" href="#">SignUp / LogIn</a>
-                </li>
-            </ul>
-        </div>
-        <div class="d-none d-md-block">
-            <p class="navbar-text my-auto mr-2">The greatest beer around the world to your door!</p>
-            <a href="#">SignUp / LogIn</a>
-        </div>
-    </nav>
-
-    <!-- Alert -->
-    <!-- <div class="container alert-container">
-        <div class="row">
-            <div class="col-12">
-                <div class="alert alert-warning">
-                    <strong>ON SALE 50% discount!</strong> <span class="d-none d-sm-inline">Get a 1 year subscription
-                        for half the price. <a href="#">Click here for more details!</a>
-                    </span><a href="#" class="d-inline d-sm-none">Click here!</a>
                 </div>
             </div>
         </div>
-    </div> -->
+        <!-- Nav bar -->
+        <nav class="navbar navbar-dark navbar-expand-sm">
+            <a class="navbar-brand" href="#">Beer Drop</a>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mr-auto">
+                    <li class="active nav-item mr-2">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item mr-2">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Beers
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Lager</a>
+                            <a class="dropdown-item" href="#">Stout</a>
+                            <a class="dropdown-item" href="#">Pilsner</a>
+                            <a class="dropdown-item" href="#">Pale Ale</a>
+                            <a class="dropdown-item" href="#">Blond Ale</a>
+                            <a class="dropdown-item" href="#">Indian Pale Ale</a>
+                        </div>
+                    <li class="nav-item mr-2 d-block d-sm-none">
+                        <a class="nav-link" href="#">SignUp / LogIn</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-none d-md-block">
+                <p class="navbar-text my-auto mr-2">Greatest beer delivered to your door!</p>
+                <a href="#" class="btn btn--cta btn--brown">SignUp / LogIn</a>
+            </div>
+        </nav>
+    </div>
 
     <!-- Callout -->
     <div class="fluid-container callout-container">
@@ -71,12 +73,13 @@
             <div class="col-12">
                 <section class="callout jumbotron text-center">
                     <h1 class="jumbotron-header">The finest beer delivered to your doorstep.</h1>
-                    <hr class="text-divider text-divider--orange">
+                    <hr class="text-divider text-divider--color">
                     <p class="lead">Sign up today to start receiving the world's best beer every month.
                         <s class="d-none d-sm-inline">€19.99</s>
                         <span class="d-inline d-sm-none"><br></span>
                         <strong><mark>First one is free!</mark></strong></p>
-                    <p><button class="btn btn-lg btn-success" data-toggle="modal" data-target="#signUpModal">Sign
+                    <p><button class="btn btn-lg btn--cta btn--brown" data-toggle="modal"
+                            data-target="#signUpModal">Sign
                             Up!</button></p>
                     <p class="text-muted"><small>You must be over 18 to sign up to our service. Please drink
                             responsibly.</small></p>

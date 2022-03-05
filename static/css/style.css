@@ -7,7 +7,7 @@ body {
 .callout-container {
     height: 100vh;
 
-    background: url(../images/beer-the-bottle.jpeg) no-repeat center center fixed;
+    background: url(../images/beer-the-bottle.jpeg) no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -24,7 +24,7 @@ body {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0,0,0,0.65);
+    background-color: rgba(0,0,0,0.70);
 }
 
 .quotes-container {}
@@ -38,12 +38,65 @@ body {
     border: 0;
 }
 
-.text-divider--orange {
-    background: #f5af2e;
+.text-divider--color {
+    background: #946d26;
 }
 
 .text-divider--short {
     width: 35px;
+}
+
+/* Alert */
+.alert-container .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.site-wide-alert{
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 5px 15px;
+    background-color: #e7da5e;
+    border-color: #e9d41d;
+}
+
+.site-wide-alert a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+.alert-warning {
+    color: #0b0704;
+    text-align: center;
+}
+
+/* Navbar */
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nava {
+    font-weight: bold;
 }
 
 /* Jumbotron */
@@ -59,11 +112,32 @@ body {
 
 .jumbotron .lead {
     margin: 25px 0;
-    color: #cacaca;
+    color: #dddada;
 }
 
 .jumbotron small {
     font-size: 60%;
     font-style: italic;
     color: #9c9c9c;
+}
+
+/* Buttons */
+.btn--cta {
+    font-weight: bold;
+    border-radius: 19px;
+    width: 160px;
+}
+
+.btn--brown {
+    color: white;
+    background-color: #946d26;
+    border-color: #946d26;
+}
+
+.btn--brown:hover,
+.btn--brown:active,
+.btn--brown:focus,
+.btn--brown:active:focus {
+    background-color: #bf8a2a;
+    border: #bf8a2a;
 }
