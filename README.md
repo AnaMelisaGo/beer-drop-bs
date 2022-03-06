@@ -32,11 +32,11 @@
  
 ## What does it do and what does it need to fulfill?
 
-Beer Drop is a site that delievers beer with just one click. It also offers monthly subscription to deliever different typs of beer. Everyone can taste different type of beer every month. 
+Beer Drop is a site that delievers beer with just one click. It also offers monthly subscription to deliever different types of beer. Everyone can taste different beers from around the world every month. 
 
 ![The favicon used for the project](static/images/favicon-icon.png)
 
-This is the favicon used for the webpage. B-shaped drop.
+This is the favicon used for the webpage. B-shaped drop for Beer Drop.
 
 ### Functionality of Project
 This webpage contains a list of different type of beer that can be purchased with lower price than the martket price elsewhere. The sign up form is to create a monthly subscription to taste different type of beer delievered automatically to the user's door.
