@@ -26,7 +26,7 @@
 
 ## Welcome to Beer Drop!
  
-![show final site image here](assets/docs/image.png)
+![This is the final look of the website](static/images/responsive-final-project.png)
  
 ***
  
