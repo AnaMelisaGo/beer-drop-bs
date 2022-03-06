@@ -1,4 +1,4 @@
-# Beer Drop
+# [Beer Drop](https://anamelisago.github.io/beer-drop-bs/)
 ***
  
 ## Table of Contents:
@@ -31,12 +31,15 @@
 ***
  
 ## What does it do and what does it need to fulfill?
-lorem
- 
-![show favicon site image here](assets/docs/image.png)
- 
+
+Beer Drop is a site that delievers beer with just one click. It also offers monthly subscription to deliever different typs of beer. Everyone can taste different type of beer every month. 
+
+![The favicon used for the project](static/images/favicon-icon.png)
+
+This is the favicon used for the webpage. B-shaped drop.
+
 ### Functionality of Project
-This application contains ....
+This webpage contains a list of different type of beer that can be purchased with lower price than the martket price elsewhere. The sign up form is to create a monthly subscription to taste different type of beer delievered automatically to the user's door.
  
 [Back to top](#table-of-contents)
  
@@ -69,17 +72,14 @@ _Developer:_
 #### Design
  
 ##### 1. Font
-lorem
+The font used in the project is from Googlefonts. I used **Roboto** for the whole webpage.
  
 ##### 2. Color Scheme
-lorem - replace as necessary
- 
-detail color palettes/swatches here using images.
- 
-The colors used throughout and what for etc....
+
+The colors used are black, brown and white to make it more elegant and simple.
  
 ##### 3. Logo
-The logo was ... add detail, or remove as necessary
+The logo used is the name itself to give the site of simplicity but still elegant look.
  
 ![show site logo here](assets/docs/image.png)
  
@@ -89,25 +89,10 @@ The applications geometrical aspects...
  
 ##### 5. Wireframing
  
-The wireframes were created for each individual page on three different screen sizes. They live below.
+The wireframes were created for each individual page on three different screen sizes. Below are the different wireframes.
  
 <details>
 <summary>Wireframes</summary>
-Home page
- 
-![Home page](static/images/home_page_wireframe.png)
- 
-Wish tree page
- 
-![Wish tree page](static/images/wish_tree_page_wireframe.png)
- 
-Send wishes page
- 
-![Send wishes page](static/images/send_wishes_wireframe.png)
- 
-Login/Register page
- 
-![Login/Register page](static/images/login_register_page_wireframe.png)
  
 </details>
  
@@ -117,32 +102,37 @@ Login/Register page
  
 #### Languages, Frameworks, Editors & Version Control:
  
-* add notes here on techstack...
- 
-#### Tools Used:
- 
-* add notes here on tools used to assist in developing the project...
- 
-## Database
- 
-#### Database Schema:
- 
-Detail the db schema here (if applicable)....images, thoughts behind fks etc
+* Tech stack
+
+   * HTML
+   * CSS
+   * JavaScript
+   * Bootstarp
  
 ## Features
  
 The project boasts several key features:
-* Create: ...
+
+* Type of Beers
+
+* Sign up Form
+
+* Reviews
+
+* Features
+   * Send a gift
+   * Payment
+   * Contact Us
  
 [Back to Top](#table-of-contents)
  
 #### Future Features:
  
-* Detail future implementations here...
- 
+* For the future, the company wants to be able to organize events for beer tasting.
+
 ## Testing
  
-Testing was ...
+Testing was done throughout the developement of the webpage. Developer tools is used for testing each code and test the responsiveness of the code before pushing it to Github. 
  
 #### Found Bugs and Fixes:
  
@@ -150,19 +140,24 @@ During manual testing...
  
 [Back to Top](#table-of-contents)
  
-#### Defensive Design
- 
-Defensive design for this application was...
+
  
 ## Deployment
  
-Detail deployment here...
+Below are the details of the deployment process using Github:
+1. From the main menu bar of the repository, click `Settings`.
+2. Scroll down and select `Page`from the left hand side menu.
+3. From the `Sources` section of Github Pages, change `none` into `main`.
+4. Click Save button just beside the dropdown menu.
+5. A message prompts just above that section stating that the page is ready to be published and a deployed repository link is provided after the message.
+6. Wait for a few seconds and refresh the page.
+7. When a green check appears before the link, it is ready to be visualized in any browser.
  
 [Back to Top](#table-of-contents)
  
 ## Credits
  
-* Detail credits
+* Code Institute for providing us examples to make this website.
  
 [Back to Top](#table-of-contents)
  
@@ -170,6 +165,6 @@ Detail deployment here...
  
 * Team 11 🤜
  
-###### <i>Disclaimer: This project was created for educational use only as part of Code Institute's 2021 Christmas Hackathon</i>
+###### <i>Disclaimer: This project was created for educational use only as part of Code Institute's exercises in Bootstrap Lessons</i>
  
 [Back to Top](#table-of-contents)
