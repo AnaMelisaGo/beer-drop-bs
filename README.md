@@ -23,7 +23,7 @@
    * [Special Thanks & Acknowledgements](#special-thanks--acknowledgements)
  
 ***
- 
+
 ## Welcome to Beer Drop!
  
 ![show final site image here](assets/docs/image.png)
@@ -44,14 +44,28 @@ This application contains ....
  
 #### User Stories:
 _Generic (Guest/Public) User:_
-* As a Generic User, I want to...
+* As a Generic User, I want to browse the different types of beers, so that I can see their products.
+
+* As a Generic User, I want to have some good offer before I try thier service.
+
+* As a Generic User, I want to 
+
+* As a Generic User, I want to
+
  
 _Registers (Logged in) User:_
+* As a Registered User, I want to have some new offers so that I can still use their services.
+
 * As a Registered User, I want to...
  
 _Developer:_
-* As a Developer, I want to...
+* As a Developer, I want to create a new webpage in the easier way.
  
+* As a Developer, I want to learn new stuff in software developement.
+
+* As a Developer, I want to...
+
+
 #### Design
  
 ##### 1. Font
