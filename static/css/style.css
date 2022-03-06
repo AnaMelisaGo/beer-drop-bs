@@ -36,6 +36,7 @@ body {
     width: 75px;
     height: 5px;
     border: 0;
+    background-color: #444;
 }
 
 .text-divider--color {
@@ -44,6 +45,10 @@ body {
 
 .text-divider--short {
     width: 35px;
+}
+
+.text-divider--white {
+    background-color: white;
 }
 
 /* Alert */
@@ -99,6 +104,10 @@ body {
     font-weight: bold;
 }
 
+.navbar .navbar-text {
+    font-style: italic;
+}
+
 /* Jumbotron */
 .jumbotron {
     background-color: transparent;
@@ -140,4 +149,58 @@ body {
 .btn--brown:active:focus {
     background-color: #bf8a2a;
     border: #bf8a2a;
+}
+
+/* Page header */
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+.quotes .page-header {
+    margin-bottom: 25px;
+}
+
+/* Content containers */
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.container-wrapper {}
+
+.container-wrapper--brown {
+    background-color: #946d26;
+    color: white;
+}
+
+/* Features */
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.feature .badge {
+    font-size: 50%;
+}
+
+.feature .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #946d26;
 }
